@@ -16,7 +16,12 @@ WITH customer_ar AS (
 ), scored_with_risk AS (
     SELECT *,
         ROUND(MIN(overdue_pct * 40 + MIN(oldest_overdue_days, 90) / 90.0 * 25 + credit_utilization * 20 + concentration_pct * 15, 100), 1) AS risk_score,
-        ROUND(open_ar * (SELECT dso_improvement_days FROM reporting_dates LIMIT 1) / (SELECT days_in_period FROM reporting_dates LIMIT 1), 2) AS cash_released_if_dso_improves
+        ROUND(
+            (open_ar / SUM(open_ar) OVER ()) *
+            (SELECT credit_sales * dso_improvement_days / days_in_period
+             FROM monthly_financials CROSS JOIN reporting_dates LIMIT 1),
+            2
+        ) AS cash_released_if_dso_improves
     FROM scored
 )
 SELECT *,
@@ -37,4 +42,5 @@ SELECT
     (SELECT SUM(open_balance) FROM ar_open_items) / (SELECT credit_sales / days_in_period FROM monthly_financials CROSS JOIN reporting_dates LIMIT 1) AS dso_estimate_days,
     (SELECT SUM(open_balance) FROM ap_open_items) / (SELECT cogs / days_in_period FROM monthly_financials CROSS JOIN reporting_dates LIMIT 1) AS dpo_estimate_days,
     (SELECT inventory_value FROM inventory_snapshots ORDER BY snapshot_date DESC LIMIT 1) / (SELECT cogs / days_in_period FROM monthly_financials CROSS JOIN reporting_dates LIMIT 1) AS inventory_days,
-    (SELECT SUM(open_balance) FROM ar_open_items) * (SELECT dso_improvement_days FROM reporting_dates LIMIT 1) / (SELECT days_in_period FROM reporting_dates LIMIT 1) AS cash_release_opportunity;
+    (SELECT credit_sales * dso_improvement_days / days_in_period
+     FROM monthly_financials CROSS JOIN reporting_dates LIMIT 1) AS cash_release_opportunity;

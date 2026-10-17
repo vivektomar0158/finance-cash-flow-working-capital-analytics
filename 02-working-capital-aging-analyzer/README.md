@@ -1,6 +1,6 @@
 # Working Capital and Receivables Aging Analyzer
 
-Standalone working-capital project for the same fictional Indian distribution company. It identifies customers and vendors locking up cash, calculates DSO/DPO/inventory days, and estimates cash released from a five-day DSO improvement.
+Standalone working-capital project for the same fictional Indian distribution company. It identifies customers and vendors locking up cash, calculates DSO/DPO/inventory days, and estimates cash released from a five-day DSO improvement using credit-sales-per-day.
 
 ![Working Capital Dashboard](powerbi/screenshot/Screenshot%202026-10-17%20092657.png)
 

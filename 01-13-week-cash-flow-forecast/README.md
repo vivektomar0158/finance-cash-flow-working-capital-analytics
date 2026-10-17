@@ -2,6 +2,8 @@
 
 Standalone liquidity planning project for a fictional Indian distribution company. It forecasts receipts, payments, and closing cash for 13 weeks and compares a base case with a 20-day customer-payment-delay scenario.
 
+![13-Week Cash Flow Dashboard](powerbi/screenshot/Screenshot%202026-10-17%20092903.png)
+
 ## Stack
 
 - SQLite for source and analytical tables

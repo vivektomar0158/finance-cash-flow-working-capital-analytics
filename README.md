@@ -7,6 +7,16 @@ Two independent finance analytics projects for a fictional Indian distribution c
 - [13-Week Cash Flow Forecast](01-13-week-cash-flow-forecast/README.md): 13-week base forecast, minimum-cash alert, and 20-day late-payment stress scenario.
 - [Working Capital and Aging Analyzer](02-working-capital-aging-analyzer/README.md): AR/AP aging, DSO, DPO, inventory days, customer risk, and DSO cash-release analysis.
 
+## Dashboard Preview
+
+### 13-Week Cash Flow and Liquidity
+
+![13-Week Cash Flow Dashboard](01-13-week-cash-flow-forecast/powerbi/screenshot/Screenshot%202026-10-17%20092903.png)
+
+### Working Capital and Receivables Aging
+
+![Working Capital Dashboard](02-working-capital-aging-analyzer/powerbi/screenshot/Screenshot%202026-10-17%20092657.png)
+
 ## Technology
 
 SQLite, SQL, Excel, Power Query, Power BI Desktop, and Python for local reproducible database/output generation.

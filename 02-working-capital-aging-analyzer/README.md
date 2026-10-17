@@ -2,6 +2,8 @@
 
 Standalone working-capital project for the same fictional Indian distribution company. It identifies customers and vendors locking up cash, calculates DSO/DPO/inventory days, and estimates cash released from a five-day DSO improvement.
 
+![Working Capital Dashboard](powerbi/screenshot/Screenshot%202026-10-17%20092657.png)
+
 ## Stack
 
 - SQLite for data storage and analytical SQL

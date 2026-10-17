@@ -1,0 +1,7 @@
+payment_id,vendor,payment_category,payment_date,amount,payment_status
+PAY-2001,Northstar Materials,Inventory,2026-01-09,210000,Planned
+PAY-2002,OfficeHub,Operating Expense,2026-01-16,65000,Planned
+PAY-2003,LogiMove,Distribution,2026-01-23,125000,Planned
+PAY-2004,Northstar Materials,Inventory,2026-02-06,185000,Planned
+PAY-2005,CloudServe,Operating Expense,2026-02-13,55000,Planned
+PAY-2006,LogiMove,Distribution,2026-02-20,140000,Planned

@@ -1,0 +1,6 @@
+cash_flow_id,flow_type,category,flow_date,amount,description
+CF-0001,Receipt,Other Receipts,2026-01-05,120000,Opening-week miscellaneous receipts
+CF-0002,Payment,Operating Expense,2026-01-05,90000,Opening-week operating expense
+CF-0003,Payment,Payroll,2026-01-30,320000,Monthly payroll
+CF-0004,Payment,Tax,2026-02-10,110000,Advance tax payment
+CF-0005,Receipt,Other Receipts,2026-02-27,80000,Insurance reimbursement

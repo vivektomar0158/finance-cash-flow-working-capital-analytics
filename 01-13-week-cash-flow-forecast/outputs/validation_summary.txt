@@ -1,0 +1,5 @@
+Database: cash_forecast.sqlite
+Base weeks: 13
+Stress weeks: 13
+Base minimum cash: 2130000.00
+Stress minimum cash: 1640000.00

@@ -1,0 +1,6 @@
+customer_id,customer_name,segment,region,credit_limit,payment_terms_days
+C101,MetroMart Retail,Large Retail,North,800000,30
+C102,Saffron Foods,Wholesale,West,600000,30
+C103,Urban Basket,Large Retail,South,500000,45
+C104,Wellness Clinics,Healthcare,West,650000,30
+C105,Coastal Stays,Hospitality,South,450000,30

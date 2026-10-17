@@ -1,0 +1,6 @@
+customer_id,customer_name,segment,region,credit_limit,payment_terms_days,open_ar,overdue_ar,oldest_overdue_days,credit_utilization,overdue_pct,concentration_pct,risk_score,cash_released_if_dso_improves,risk_band
+C101,MetroMart Retail,Large Retail,North,800000.0,30,660000.0,385000.0,16,0.825,0.5833333333333334,0.358695652173913,49.7,110000.0,Medium
+C102,Saffron Foods,Wholesale,West,600000.0,30,245000.0,60000.0,1,0.4083333333333333,0.24489795918367346,0.1331521739130435,20.2,40833.33,Low
+C103,Urban Basket,Large Retail,South,500000.0,45,380000.0,0,0,0.76,0.0,0.20652173913043478,18.3,63333.33,Low
+C104,Wellness Clinics,Healthcare,West,650000.0,30,295000.0,0,0,0.45384615384615384,0.0,0.16032608695652173,11.5,49166.67,Low
+C105,Coastal Stays,Hospitality,South,450000.0,30,260000.0,0,0,0.5777777777777777,0.0,0.14130434782608695,13.7,43333.33,Low

@@ -1,0 +1,10 @@
+invoice_id,customer,invoice_date,due_date,amount,expected_payment_date,actual_payment_date,payment_status
+INV-1001,Acme Retail,2025-11-15,2026-01-08,420000,2026-01-08,,Open
+INV-1002,Beacon Foods,2025-12-01,2026-01-15,275000,2026-01-15,2026-01-12,Paid
+INV-1003,CityMart,2025-12-10,2026-01-22,180000,2026-01-22,,Open
+INV-1004,Delta Health,2025-12-18,2026-02-05,360000,2026-02-05,,Open
+INV-1005,Evergreen Hotels,2025-12-22,2026-02-12,225000,2026-02-12,,Open
+INV-1006,Acme Retail,2026-01-02,2026-02-19,310000,2026-02-19,,Open
+INV-1007,Beacon Foods,2026-01-03,2026-03-05,190000,2026-03-05,,Open
+INV-1008,CityMart,2026-01-04,2026-03-12,145000,2026-03-12,,Open
+INV-1009,Delta Health,2025-12-01,2025-12-20,95000,2025-12-20,,Overdue

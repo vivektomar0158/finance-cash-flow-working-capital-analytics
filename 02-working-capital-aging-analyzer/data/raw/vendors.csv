@@ -1,0 +1,5 @@
+vendor_id,vendor_name,category,payment_terms_days
+V101,Aravalli Suppliers,Inventory,45
+V102,DeskWorks,Operating Expense,30
+V103,RapidRoute,Distribution,30
+V104,DataNest,Technology,30

@@ -22,7 +22,7 @@ python 02-working-capital-aging-analyzer/build_workbook.py
 
 The generated Excel workbooks are stored in each project's `excel` folder. Power BI `.pbix` files must be created with Power BI Desktop using the documented output files and dashboard guides.
 
-Downloaded third-party PBIX files and screenshots are intentionally excluded. The included Power BI guides and synthetic data are provided so the reports can be rebuilt as original work.
+The `powerbi` folders include the downloaded PBIX files and dashboard screenshots as reference assets. The included SQL, synthetic data, Excel workbooks, and Power BI guides document the original project implementation.
 
 ## Data note
 

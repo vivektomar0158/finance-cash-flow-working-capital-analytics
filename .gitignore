@@ -7,9 +7,3 @@ venv/
 Thumbs.db
 *.tmp
 ~$*.xlsx
-
-# Downloaded third-party Power BI references; rebuild and add your own reports.
-01-13-week-cash-flow-forecast/powerbi/*.pbix
-02-working-capital-aging-analyzer/powerbi/*.pbix
-01-13-week-cash-flow-forecast/powerbi/screenshot/
-02-working-capital-aging-analyzer/powerbi/screenshot/
